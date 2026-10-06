@@ -1,0 +1,21 @@
+{
+  "name": "sis2-vue-task-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "playwright test",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.52.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^6.3.5",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
